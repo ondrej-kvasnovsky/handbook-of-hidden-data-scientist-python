@@ -1,3 +1,9 @@
-# My Awesome Book
+# Handbook of Hidden Scientist \(using Python\)
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This is my handbook for data analysis, mining, cleaning, aggregating, R and possibly data science. It has been written during taking the following courses on Udacity.
+
+* Introduction to Machine Learning
+  Machine Learning for Trading
+
+
+
