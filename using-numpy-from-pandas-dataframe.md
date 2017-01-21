@@ -47,6 +47,8 @@ Here is the output.
 2017-01-20
 ```
 
+## Sub array
+
 If we would like to extract sub array from the nd array, we can provide ranges coordinates.
 
 ```
