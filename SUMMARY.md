@@ -1,3 +1,6 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [CSV with pandas](chapter1.md)
+* [Read CSV](read-csv.md)
+
