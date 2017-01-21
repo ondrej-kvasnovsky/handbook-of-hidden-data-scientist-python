@@ -28,7 +28,7 @@ Date,Open,High,Low,Close,Volume,Adj Close
 2017-01-11,805.00,808.150024,801.369995,807.909973,1057900,807.909973
 ```
 
-First, load data only certain data range. That is done by defining what column should be used for indexing, see `indexcol`_ parameter in _`read_csv`_ function. Then we provide other parameters for read\_csv_
+First, load data only certain data range. That is done by defining what column should be used for indexing, see `index_col`_ parameter in _`read_csv`_ function. Then we provide other parameters for read\_csv function \(check _[_read\_csv documentation_](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)_ to find out what are these parameters doing\)._
 
 ```py
 import pandas as pd
