@@ -8,4 +8,5 @@
     * [Plot and Normalize CSV Data](plot-csv-data.md)
 * [NumPy](numpy.md)
     * [Using NumPy from pandas DataFrame](using-numpy-from-pandas-dataframe.md)
+    * [Create NDArray](create-ndarray.md)
 
