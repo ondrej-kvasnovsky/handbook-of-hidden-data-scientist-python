@@ -27,7 +27,7 @@ Here is the output. Notice that it does not contain name of the columns. This ta
 
 ## Navigating in N-Dimensional array
 
-If we want to navigate to specific coordinates in this 2 dimensional array, we use brackets with indexes, like nd\[row, column\]. 
+If we want to navigate to specific coordinates in this 2 dimensional array, we use brackets with indexes, like nd\[row, column\].
 
 ```
 import pandas as pd
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is the output. 
+Here is the output.
 
 ```
 2017-01-20
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is the sub array. 
+Here is the sub array.
 
 ```
 [['2017-01-20' 120.449997]
