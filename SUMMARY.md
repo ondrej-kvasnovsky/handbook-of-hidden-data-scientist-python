@@ -6,5 +6,5 @@
     * [Math Operations on Column](math-operations-on-column.md)
     * [Joining CSVs](join-csvs.md)
     * [Plot and Normalize CSV Data](plot-csv-data.md)
-* [NumPy](read-csv.md)
+* [NumPyf](read-csv.md)
 
