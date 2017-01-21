@@ -73,5 +73,61 @@ Here is the sub array.
  ['2017-01-13' 119.110001]]
 ```
 
+## Select all rows and some columns
+
+Use just ":" as row parametr to select all rows.
+
+```
+import pandas as pd
+
+def test_run():
+    df = pd.read_csv("data/AAPL.csv")
+    nd = df.values
+    print nd[:, 0]
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Here is the output. It contains all rows and just one row. 
+
+```
+[['2017-01-20']
+ ['2017-01-19']
+ ['2017-01-18']
+ ['2017-01-17']
+ ['2017-01-13']]
+```
+
+## Select last or second last row
+
+We can navigate to rows from the bottom of the table using negative numbers. 
+
+```
+import pandas as pd
+
+def test_run():
+    df = pd.read_csv("data/AAPL.csv")
+    nd = df.values
+    print nd[-1, 0]
+
+if __name__ == "__main__":
+    test_run()
+```
+
+The output is the last value in column on 0th position.
+
+```
+2017-01-13
+```
+
+If we would use -2 as row parameter value, we would get this output. 
+
+```
+2017-01-17
+```
+
+
+
 
 
