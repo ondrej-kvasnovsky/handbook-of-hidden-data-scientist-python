@@ -26,7 +26,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Read only header, first two rows or specified range. 
+Read only header, first two rows or specified range.
 
 ```
 import pandas as pd
