@@ -30,9 +30,9 @@ Date,Open,High,Low,Close,Volume,Adj Close
 
 First, load data only certain data range. That is done by defining what column should be used for indexing, see `index_col`_ parameter in _`read_csv`_ function. Then we provide other parameters for read\_csv function \(check _[_read\_csv documentation_](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)_ to find out what are these parameters doing\)._
 
-Then we rename 'Adj Close' column, so it is not in conflict when joining other CSV that contains column of the same name. 
+Then we rename 'Adj Close' column, so it is not in conflict when joining other CSV that contains column of the same name.
 
-Finally, join the APPL CSV into our new data frame df1. Drop rows that contain just NaN values. And then we could iterate through other CSV files and join them into df1 data frame. 
+Finally, join the APPL CSV into our new data frame df1. Drop rows that contain just NaN values. And then we could iterate through other CSV files and join them into df1 data frame.
 
 ```py
 import pandas as pd
