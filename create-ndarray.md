@@ -1,6 +1,6 @@
 ## Create N-Dimensional Array
 
-We are going to explore what are the ways to create arrays using NumPy library. 
+We are going to explore what are the ways to create arrays using NumPy library.
 
 ## Create 1-dimensional array
 
@@ -61,7 +61,7 @@ When we run the code it does return arrays with some values. These values repres
 [  0.00000000e+000   3.10503637e+231   1.97626258e-323   9.88131292e-324
    1.48219694e-323]
 
-      
+
 [[  0.00000000e+000   0.00000000e+000   2.12481278e-314   2.78136354e-309]
  [  2.12461675e-314   2.12461675e-314   0.00000000e+000   2.14107926e-314]
  [  6.35862486e-321   0.00000000e+000   0.00000000e+000   0.00000000e+000]
@@ -117,6 +117,50 @@ Here is the array with all the ones.
  [ 1.  1.  1.  1.]
  [ 1.  1.  1.  1.]
  [ 1.  1.  1.  1.]]
+```
+
+## Create typed array
+
+We are going to create array of integers in this section. 
+
+```
+import numpy as np
+
+def test_run():
+    print np.empty((3, 2), dtype=np.int_)
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Now we have created array full of integers. 
+
+```
+[[         0          0]
+ [4301258756 4301322160]
+ [4299901408          0]]
+```
+
+## Create array with random numbers
+
+We need to use random module from numpy library. 
+
+```
+import numpy as np
+
+def test_run():
+    print np.random.rand(3, 2)
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Here is the array with random values. 
+
+```
+[[ 0.88356865  0.72362337]
+ [ 0.95050018  0.2568881 ]
+ [ 0.14610116  0.92273639]]
 ```
 
 
