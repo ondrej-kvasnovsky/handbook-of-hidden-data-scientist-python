@@ -27,5 +27,7 @@ Here we have printed out the shape of the array.
 3
 ```
 
+## Get size of array
+
 
 
