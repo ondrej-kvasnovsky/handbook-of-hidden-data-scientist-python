@@ -10,7 +10,9 @@ We need to find the biggest value from the mean. So, it is rolling standard devi
 
 ## Bollinger bands ®
 
+Add two more STD moved by some number. When the data crosses one of those curves, we should think about sale or buy.
 
+![](/assets/bollinger-bands.png)
 
-
+Coding
 
