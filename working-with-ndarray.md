@@ -196,7 +196,7 @@ Index of max.: 5
 
 ## Slicing array
 
-If you want to slice data, get some specific values of array, you can access it via indices. 
+If you want to slice data, get some specific values of array, you can access it via indices.
 
 ```
 import numpy as np
@@ -210,7 +210,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-First argument ":" makes sure all rows are included. Second argument if more complex. 0 and 3 are saying what values to take. 2 is saying what will be skipped. Here is the output. 
+First argument ":" makes sure all rows are included. Second argument if more complex. 0 and 3 are saying what values to take. 2 is saying what will be skipped. Here is the output.
 
 ```
 [[1 2 3]
@@ -219,6 +219,32 @@ First argument ":" makes sure all rows are included. Second argument if more com
 [[1 3]
  [2 4]
  [4 6]]
+```
+
+## Assigning values in array
+
+```
+import numpy as np
+
+def test_run():
+    array = np.array([(1, 2, 3), (2, 3, 4), (4, 5, 6)])
+    print array
+    array[0][0] = 100
+    print  array
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Here is the output. 
+
+```
+[[1 2 3]
+ [2 3 4]
+ [4 5 6]]
+[[100   2   3]
+ [  2   3   4]
+ [  4   5   6]]
 ```
 
 
