@@ -15,7 +15,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here we have printed out the shape of the array. 
+Here we have printed out the shape of the array.
 
 ```
 (2, 3)
