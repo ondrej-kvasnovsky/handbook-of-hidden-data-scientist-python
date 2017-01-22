@@ -306,7 +306,29 @@ Here is the output.
 ## Filtering data using conditions
 
 ```
+import numpy as np
 
+def test_run():
+    array = np.array([(20, 25, 10, 5), (10, 25, 10, 5)])
+
+    print array
+
+    mean = array.mean()
+    print mean
+
+    print array[array < mean]
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Output. 
+
+```
+[[20 25 10  5]
+ [10 25 10  5]]
+13.75
+[10  5 10 10  5]
 ```
 
 
