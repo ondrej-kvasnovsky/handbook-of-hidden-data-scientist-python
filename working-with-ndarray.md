@@ -163,7 +163,7 @@ Her are the values.
 2.5
 ```
 
-There are more functions available, check [this page](https://docs.scipy.org/doc/numpy/reference/routines.math.html). 
+There are more functions available, check [this page](https://docs.scipy.org/doc/numpy/reference/routines.math.html).
 
 ## Find index of max value
 
@@ -186,12 +186,39 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is the output. 
+Here is the output.
 
 ```
 Array: [ 9  6  2  3 12 14  7 10]
 Maximum value: 14
 Index of max.: 5
+```
+
+## Slicing array
+
+If you want to slice data, get some specific values of array, you can access it via indices. 
+
+```
+import numpy as np
+
+def test_run():
+    array = np.array([(1, 2, 3), (2, 3, 4), (4, 5, 6)])
+    print array
+    print array[:, 0:3:2]
+
+if __name__ == "__main__":
+    test_run()
+```
+
+First argument ":" makes sure all rows are included. Second argument if more complex. 0 and 3 are saying what values to take. 2 is saying what will be skipped. Here is the output. 
+
+```
+[[1 2 3]
+ [2 3 4]
+ [4 5 6]]
+[[1 3]
+ [2 4]
+ [4 6]]
 ```
 
 

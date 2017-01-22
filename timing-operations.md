@@ -62,7 +62,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is the result of measurement. Mean is the same, but times are significantly different. NumPy is just so much faster than manual processing of an array. For manual method, it takes about 5 seconds. 
+Here is the result of measurement. Mean is the same, but times are significantly different. NumPy is just so much faster than manual processing of an array. For manual method, it takes about 5 seconds.
 
 ```
 0.499932014806
