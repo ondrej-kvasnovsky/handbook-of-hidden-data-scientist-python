@@ -63,7 +63,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is the type of the array. 
+Here is the type of the array.
 
 ```
 int64
@@ -71,7 +71,7 @@ int64
 
 ## Make random numbers the same for every execution
 
-We can set seed for random number generation. Which will make sure that the random numbers are generated always the same. 
+We can set seed for random number generation. Which will make sure that the random numbers are generated always the same.
 
 ```
 import numpy as np
@@ -85,12 +85,33 @@ if __name__ == "__main__":
     test_run()
 ```
 
-So, everytime we run this code, we get the same result. 
+So, everytime we run this code, we get the same result.
 
 ```
 [[8 8 3 7]
  [7 0 4 2]
  [5 2 2 2]]
+```
+
+## Sum all elements in array
+
+```
+import numpy as np
+
+def test_run():
+    print array
+    print array.sum()
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Here is sum.
+
+```
+[[1 2 3]
+ [2 3 4]]
+15
 ```
 
 
