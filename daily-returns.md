@@ -62,9 +62,11 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here are the two charts. 
+Here are the two charts.
 
 ![](/assets/daily-return-prices.png)
+
+Observe that SPY and XOM stocks are somehow connected. It seems that SPY is following XOM stock changes.
 
 ![](/assets/daily-returns-daily-returns.png)
 
