@@ -63,11 +63,11 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is the output. First lets have a look at the image, so we have better understanding of what the data look like. 
+Here is the output. First lets have a look at the image, so we have better understanding of what the data look like.
 
 ![](/assets/glob_stats_chart1.png)
 
-Now we can check calculated numbers. 
+Now we can check calculated numbers. Check standard deviation, the highest number is for Google, because their stocks are going up and down by a lot. 
 
 ```
 Mean:
