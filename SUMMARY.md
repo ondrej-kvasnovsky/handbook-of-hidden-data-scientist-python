@@ -17,4 +17,5 @@
     * [Daily Returns](daily-returns.md)
     * [Cumulative Returns](cumulative-returns.md)
 * [Incomplete Data](incomplete-data.md)
+    * [Pandas fillna\(\)](pandas-fillna.md)
 
