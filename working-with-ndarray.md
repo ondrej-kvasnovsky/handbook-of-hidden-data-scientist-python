@@ -273,10 +273,34 @@ Here is the output.
  [100   5   6]]
 ```
 
-Or you can set list of values to a row. 
+Or you can set list of values to a row.
 
 ```
 array[:, 0] = [0, 0,0]
+```
+
+## Indexing
+
+```
+import numpy as np
+
+def test_run():
+    array = np.random.rand(5)
+
+    indices = np.array([1, 1, 2, 3])
+
+    print array
+    print array[indices]
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Here is the output. 
+
+```
+[ 0.22607416  0.94175441  0.45115583  0.3740176   0.53811653]
+[ 0.94175441  0.94175441  0.45115583  0.3740176 ]
 ```
 
 
