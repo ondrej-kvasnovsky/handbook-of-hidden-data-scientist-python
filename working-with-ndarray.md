@@ -29,5 +29,24 @@ Here we have printed out the shape of the array.
 
 ## Get size of array
 
+Size of array is returned as sum of all cells in the n-dimension array. 
+
+```
+import numpy as np
+
+def test_run():
+    array = np.array([(1, 2, 3), (2, 3, 4)])
+    print array.size
+
+if __name__ == "__main__":
+    test_run()
+```
+
+For our example, which contains 6 numbers, it prints out 6.
+
+```
+6
+```
+
 
 
