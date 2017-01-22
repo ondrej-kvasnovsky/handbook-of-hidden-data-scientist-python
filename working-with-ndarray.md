@@ -122,8 +122,8 @@ import numpy as np
 def test_run():
     array = np.array([(1, 2, 3), (2, 3, 4)])
     print array
-    print array.sum(0)
-    print array.sum(1)
+    print array.sum(0) # sum of columns
+    print array.sum(1) # sum of rows
 
 if __name__ == "__main__":
     test_run()
@@ -134,6 +134,33 @@ Here are the sums.
 ```
 [3 5 7]
 [6 9]
+```
+
+## Finding max, min and mean in an array
+
+```
+import numpy as np
+
+def test_run():
+    array = np.array([(1, 2, 3), (2, 3, 4)])
+    print array
+
+    print array.max(0) # max of first column
+    print array.min(0) # min of first column
+    print array.mean() # mean of all elements
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Her are the values. 
+
+```
+[[1 2 3]
+ [2 3 4]]
+[2 3 4]
+[1 2 3]
+2.5
 ```
 
 
