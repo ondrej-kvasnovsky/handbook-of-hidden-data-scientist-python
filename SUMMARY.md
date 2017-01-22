@@ -19,4 +19,5 @@
 * [Incomplete Data](incomplete-data.md)
     * [Pandas fillna\(\)](pandas-fillna.md)
 * [Histograms and Scatterplots](histograms-and-scatterplots.md)
+    * [Histogram](histogram.md)
 
