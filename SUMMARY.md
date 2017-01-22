@@ -14,4 +14,5 @@
 * [Statistical Analysis](statistical-analysis.md)
     * [Global Statistics](global-statistics.md)
     * [Rolling Statistics](rolling-statistics.md)
+    * [Daily Returns](daily-returns.md)
 
