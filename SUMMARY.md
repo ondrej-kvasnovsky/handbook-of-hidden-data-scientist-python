@@ -10,4 +10,5 @@
     * [Using NumPy from pandas DataFrame](using-numpy-from-pandas-dataframe.md)
     * [Create NDArray](create-ndarray.md)
     * [Working with NDArray](working-with-ndarray.md)
+    * [Timing operations](timing-operations.md)
 

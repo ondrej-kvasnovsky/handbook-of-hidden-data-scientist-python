@@ -153,7 +153,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Her are the values. 
+Her are the values.
 
 ```
 [[1 2 3]
@@ -161,6 +161,37 @@ Her are the values.
 [2 3 4]
 [1 2 3]
 2.5
+```
+
+There are more functions available, check [this page](https://docs.scipy.org/doc/numpy/reference/routines.math.html). 
+
+## Find index of max value
+
+```
+import numpy as np
+
+def get_max_index(a):
+    return np.argmax(a)
+
+
+def test_run():
+    a = np.array([9, 6, 2, 3, 12, 14, 7, 10], dtype=np.int32)  # 32-bit integer array
+    print "Array:", a
+
+    # Find the maximum and its index in array
+    print "Maximum value:", a.max()
+    print "Index of max.:", get_max_index(a)
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Here is the output. 
+
+```
+Array: [ 9  6  2  3 12 14  7 10]
+Maximum value: 14
+Index of max.: 5
 ```
 
 
