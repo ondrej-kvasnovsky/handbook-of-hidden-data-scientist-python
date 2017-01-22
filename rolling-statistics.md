@@ -8,3 +8,9 @@ We need to find the biggest value from the mean. So, it is rolling standard devi
 
 ![](/assets/rolling-std.png)
 
+## Bollinger bands ®
+
+
+
+
+
