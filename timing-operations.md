@@ -1,6 +1,6 @@
 ## Timing operations
 
-Capture snapshot of operation execution. 
+Capture snapshot of operation execution.
 
 ## Time to create an array
 
@@ -18,7 +18,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Output is. 
+Output is.
 
 ```
 Time it took to generate random array:  1.38282775879e-05  seconds
@@ -30,9 +30,11 @@ Lets compare "manual" going trough the array instead of using NumPy function.
 
 ```
 
+
+
 ```
 
-Here is the result of measurement.
+Here is the result of measurement. 
 
 ```
 
