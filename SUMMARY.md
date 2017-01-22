@@ -12,4 +12,5 @@
     * [Working with NDArray](working-with-ndarray.md)
     * [Timing operations](timing-operations.md)
 * [Statistical Analysis](statistical-analysis.md)
+    * [Global statistics](global-statistics.md)
 
