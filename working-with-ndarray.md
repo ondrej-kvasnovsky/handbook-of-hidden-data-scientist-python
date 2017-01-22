@@ -305,6 +305,8 @@ Here is the output.
 
 ## Filtering data using conditions
 
+Also called masking.
+
 ```
 import numpy as np
 
@@ -322,7 +324,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Output. 
+Output.
 
 ```
 [[20 25 10  5]
