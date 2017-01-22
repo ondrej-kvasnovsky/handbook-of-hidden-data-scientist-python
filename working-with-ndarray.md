@@ -296,11 +296,17 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is the output. 
+Here is the output.
 
 ```
 [ 0.22607416  0.94175441  0.45115583  0.3740176   0.53811653]
 [ 0.94175441  0.94175441  0.45115583  0.3740176 ]
+```
+
+## Filtering data using conditions
+
+```
+
 ```
 
 
