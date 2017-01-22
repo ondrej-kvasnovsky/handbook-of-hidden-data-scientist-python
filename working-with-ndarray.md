@@ -29,7 +29,7 @@ Here we have printed out the shape of the array.
 
 ## Get size of array
 
-Size of array is returned as sum of all cells in the n-dimension array. 
+Size of array is returned as sum of all cells in the n-dimension array.
 
 ```
 import numpy as np
@@ -46,6 +46,51 @@ For our example, which contains 6 numbers, it prints out 6.
 
 ```
 6
+```
+
+## Type of array
+
+NumPy arrays are homogenous \(all the cells must have the same type\) and we can get that type for an array.
+
+```
+import numpy as np
+
+def test_run():
+    array = np.array([(1, 2, 3), (2, 3, 4)])
+    print array.dtype
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Here is the type of the array. 
+
+```
+int64
+```
+
+## Make random numbers the same for every execution
+
+We can set seed for random number generation. Which will make sure that the random numbers are generated always the same. 
+
+```
+import numpy as np
+
+def test_run():
+    np.random.seed(100)
+    array = np.random.randint(0, 10, size=(3,4))
+    print array
+
+if __name__ == "__main__":
+    test_run()
+```
+
+So, everytime we run this code, we get the same result. 
+
+```
+[[8 8 3 7]
+ [7 0 4 2]
+ [5 2 2 2]]
 ```
 
 
