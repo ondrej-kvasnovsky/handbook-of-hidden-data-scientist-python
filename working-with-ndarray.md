@@ -114,5 +114,27 @@ Here is sum.
 15
 ```
 
+## Sum of each column and row
+
+```
+import numpy as np
+
+def test_run():
+    array = np.array([(1, 2, 3), (2, 3, 4)])
+    print array
+    print array.sum(0)
+    print array.sum(1)
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Here are the sums.
+
+```
+[3 5 7]
+[6 9]
+```
+
 
 
