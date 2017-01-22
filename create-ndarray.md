@@ -121,7 +121,7 @@ Here is the array with all the ones.
 
 ## Create typed array
 
-We are going to create array of integers in this section. 
+We are going to create array of integers in this section.
 
 ```
 import numpy as np
@@ -133,7 +133,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Now we have created array full of integers. 
+Now we have created array full of integers.
 
 ```
 [[         0          0]
@@ -143,7 +143,7 @@ Now we have created array full of integers.
 
 ## Create array with random numbers
 
-We need to use random module from numpy library. 
+We need to use random module from numpy library.
 
 ```
 import numpy as np
@@ -155,12 +155,56 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is the array with random values. 
+Here is the array with random values.
 
 ```
 [[ 0.88356865  0.72362337]
  [ 0.95050018  0.2568881 ]
  [ 0.14610116  0.92273639]]
+```
+
+## Random numbers using Gaussian \(normal\) distribution
+
+We will use 50 as mean and 10 as standard deviation. 
+
+```
+import numpy as np
+
+def test_run():
+    # mean 50
+    # standard deviation 10
+    print np.random.normal(50, 10, size=(3, 2))
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Here is the output. 
+
+```
+[[ 55.69211472  52.05373459]
+ [ 31.19917659  52.00790108]
+ [ 39.79686777  44.11232758]]
+```
+
+## Generate array of random integers in a specific range
+
+```
+import numpy as np
+
+def test_run():
+    print np.random.randint(0, 10, size=(3, 2))
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Here is the output. 
+
+```
+[[8 0]
+ [1 9]
+ [2 4]]
 ```
 
 
