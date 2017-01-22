@@ -38,11 +38,6 @@ def plot_data(df, title="Stock prices", xlabel="Date", ylabel="Price"):
 
 def compute_daily_returns(df):
     """Compute and return the daily return values."""
-    # daily_ret[today] = (price[today]/price[today-1]) -1
-    # daily_returns = df.copy()
-    # compute daily returns for row 1 onwards
-    # daily_returns[1:] = (daily_returns[1:] / daily_returns[-1:].values) - 1
-    # daily_returns.ix[0, :] = 0 # set daily returns for row 0 to 0
     daily_returns = (df / df.shift(1)) - 1
     daily_returns.ix[0, :] = 0
     return daily_returns
