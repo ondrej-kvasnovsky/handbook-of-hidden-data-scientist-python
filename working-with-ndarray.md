@@ -333,5 +333,53 @@ Output.
 [10  5 10 10  5]
 ```
 
+## Multiplication
+
+```
+import numpy as np
+
+def test_run():
+    array = np.array([(20, 25, 10, 5), (10, 25, 10, 5)])
+
+    print array
+    print array * 2
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Output.
+
+```
+[[20 25 10  5]
+ [10 25 10  5]]
+[[40 50 20 10]
+ [20 50 20 10]]
+```
+
+## Sum arrays
+
+```
+import numpy as np
+
+def test_run():
+    array = np.array([(20, 25, 10, 5), (10, 25, 10, 5)])
+
+    print array
+    print array + array
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Output.
+
+```
+[[20 25 10  5]
+ [10 25 10  5]]
+[[40 50 20 10]
+ [20 50 20 10]]
+```
+
 
 
