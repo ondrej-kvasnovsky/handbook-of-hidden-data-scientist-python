@@ -262,7 +262,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is the output. 
+Here is the output.
 
 ```
 [[1 2 3]
@@ -271,6 +271,12 @@ Here is the output.
 [[100   2   3]
  [100   3   4]
  [100   5   6]]
+```
+
+Or you can set list of values to a row. 
+
+```
+array[:, 0] = [0, 0,0]
 ```
 
 
