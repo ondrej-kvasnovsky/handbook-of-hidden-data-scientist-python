@@ -67,7 +67,7 @@ Here is the output. First lets have a look at the image, so we have better under
 
 ![](/assets/glob_stats_chart1.png)
 
-Now we can check calculated numbers. Check standard deviation, the highest number is for Google, because their stocks are going up and down by a lot. 
+Now we can check calculated numbers. Check standard deviation, the highest number is for Google, because their stocks are going up and down by a lot. Standard deviation is measure of deviation from the center, mean, of the data.
 
 ```
 Mean:
