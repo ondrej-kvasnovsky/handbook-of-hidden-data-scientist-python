@@ -236,7 +236,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is the output. 
+Here is the output.
 
 ```
 [[1 2 3]
@@ -245,6 +245,32 @@ Here is the output.
 [[100   2   3]
  [  2   3   4]
  [  4   5   6]]
+```
+
+Or you can assign value to whole row or column.
+
+```
+import numpy as np
+
+def test_run():
+    array = np.array([(1, 2, 3), (2, 3, 4), (4, 5, 6)])
+    print array
+    array[:, 0] = 100
+    print  array
+
+if __name__ == "__main__":
+    test_run()
+```
+
+Here is the output. 
+
+```
+[[1 2 3]
+ [2 3 4]
+ [4 5 6]]
+[[100   2   3]
+ [100   3   4]
+ [100   5   6]]
 ```
 
 
