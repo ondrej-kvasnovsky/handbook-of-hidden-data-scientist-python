@@ -165,7 +165,7 @@ Here is the array with random values.
 
 ## Random numbers using Gaussian \(normal\) distribution
 
-We will use 50 as mean and 10 as standard deviation. 
+We will use 50 as mean and 10 as standard deviation.
 
 ```
 import numpy as np
@@ -179,7 +179,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is the output. 
+Here is the output.
 
 ```
 [[ 55.69211472  52.05373459]
@@ -199,7 +199,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is the output. 
+Here is the output.
 
 ```
 [[8 0]
