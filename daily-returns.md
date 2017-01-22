@@ -45,6 +45,13 @@ def compute_daily_returns(df):
     # Alternative method
     # daily_returns = (df / df.shift(1)) - 1
     # daily_returns.ix[0, :] = 0
+    
+    # Another alternative method
+    # daily_returns = df.copy()
+    # compute daily returns for row 1 onwards
+    # daily_returns[1:] = (daily_returns[1:] / daily_returns[-1:].values) - 1
+    # daily_returns.ix[0, :] = 0 # set daily returns for row 0 to 0
+    
     return daily_returns
 
 def test_run():
