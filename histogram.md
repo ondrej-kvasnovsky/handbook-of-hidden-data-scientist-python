@@ -21,7 +21,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from util import get_data, plot_data, compute_daily_returns
 
-
 def test_run():
     dates = pd.date_range('2009-01-01', '2012-12-31')
     symbols = ['SPY']
@@ -42,7 +41,6 @@ def test_run():
     plt.axvline(std, color='r', linestyle='dotted', linewidth=2)
     plt.axvline(-std, color='r', linestyle='dotted', linewidth=2)
     plt.show()
-
 
 if __name__ == "__main__":
     test_run()
@@ -80,7 +78,6 @@ def plot_data(df, title="", set_xlabel="Date", ylabel="Price"):
     ax.set_xlabel(set_xlabel)
     ax.set_ylabel(ylabel)
     plt.show()
-
 
 def compute_daily_returns(df):
     """Compute and return the daily return values."""
