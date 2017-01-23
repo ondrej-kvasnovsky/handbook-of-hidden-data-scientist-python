@@ -2,11 +2,11 @@
 
 ![](/assets/histogram.png)
 
-The histogram is create from this data.
+The histogram is create from this data that you can see on this chart below.
 
 ![](/assets/histogram-data.png)
 
-Then we transform data into daily returns.
+Then we transformed data into daily returns.
 
 ![](/assets/histogram-daily-return.png)
 
@@ -14,7 +14,7 @@ Now, we can take daily returns and transform it to histogram. We also add mean a
 
 ![](/assets/histogram-with-all.png)
 
-Here is the code we used to generate the three charts above. 
+Here is the code we used to generate the three charts above.
 
 ```
 import pandas as pd
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-We have moved some of the utility code into `util.py`. 
+We have moved some of the utility code into `util.py`.
 
 ```
 import os
