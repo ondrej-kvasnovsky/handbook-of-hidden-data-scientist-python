@@ -8,5 +8,7 @@ What change my mind, are lessons about Machine Learning. When it comes to mathem
 
 So, now I take Python as really beautiful library to work with when it comes to working with data.
 
-Python libraries wrap C or Fortran code in many cases. That makes your code run super fast. And, that is what I love a lot \(even though the language looks pretty old-school\). 
+Python libraries wrap C or Fortran code in many cases. That makes your code run super fast. And, that is what I love a lot \(even though the language looks pretty old-school\).
+
+Then I asked question "Is Python slower than Java?". Here is the answer: [http://stackoverflow.com/questions/672857/is-python-slower-than-java-c](http://stackoverflow.com/questions/672857/is-python-slower-than-java-c) 
 
