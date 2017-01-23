@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Python](python.md)
 * [CSV with pandas](chapter1.md)
     * [Reading CSV](read-csv.md)
     * [Math Operations on Column](math-operations-on-column.md)
