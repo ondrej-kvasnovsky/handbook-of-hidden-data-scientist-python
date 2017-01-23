@@ -10,5 +10,5 @@ So, now I take Python as really beautiful library to work with when it comes to 
 
 Python libraries wrap C or Fortran code in many cases. That makes your code run super fast. And, that is what I love a lot \(even though the language looks pretty old-school\).
 
-Then I asked question "Is Python slower than Java?". Here is the answer: [http://stackoverflow.com/questions/672857/is-python-slower-than-java-c](http://stackoverflow.com/questions/672857/is-python-slower-than-java-c) 
+Then I asked question "Is Python slower than Java?". Here is the answer: [http://stackoverflow.com/questions/672857/is-python-slower-than-java-c](http://stackoverflow.com/questions/672857/is-python-slower-than-java-c). What you find after reading all that stuff, Java might be faster. BUT, try to write all the functionality that is provided by Python libraries in Java. You might not like that talkative coding at all. 
 
