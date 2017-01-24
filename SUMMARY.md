@@ -19,7 +19,8 @@
     * [Cumulative Returns](cumulative-returns.md)
 * [Incomplete Data](incomplete-data.md)
     * [Pandas fillna\(\)](pandas-fillna.md)
-* [Histograms and Scatterplots](histograms-and-scatterplots.md)
+* [Histograms and Scatter Plots](histograms-and-scatterplots.md)
     * [Histogram](histogram.md)
     * [Two Histograms](two-histograms.md)
+    * [Scatter Plot](scatter-plot.md)
 
