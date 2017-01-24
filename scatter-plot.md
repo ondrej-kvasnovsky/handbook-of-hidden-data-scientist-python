@@ -38,11 +38,11 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is SPY vs XOM.
+Here is SPY vs XOM. Angle of the regression line is quite high, that means high slope. Distrubtion of points is kind of around the regression line, which means higher correlation.
 
 ![](/assets/scatter-high-slope-low-correlation.png)
 
-Here is SPY vs GLD.
+Here is SPY vs GLD. Low slope \(angle of the linear regression line\) and distrubution of points is all over the chart, which means low correlation.
 
 ![](/assets/scatter-low-slope.png)
 
