@@ -2,7 +2,7 @@
 
 ![](/assets/histogram.png)
 
-The histogram is create from this data that you can see on this chart below.
+The histogram is created from this data that you can see on this chart below.
 
 ![](/assets/histogram-data.png)
 
