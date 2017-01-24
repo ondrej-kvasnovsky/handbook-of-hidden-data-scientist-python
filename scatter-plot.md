@@ -4,7 +4,7 @@ We are going to observe correlations. Notice how price changes for GLD on this c
 
 ![](/assets/scatter-1.png)
 
-Here is the code to generate two scatter charts for both situations. 
+Here is the code to generate two scatter charts for both situations.
 
 ```
 import pandas as pd
@@ -38,7 +38,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here is SPY vs XOM. 
+Here is SPY vs XOM.
 
 ![](/assets/scatter-high-slope-low-correlation.png)
 
@@ -46,10 +46,10 @@ Here is SPY vs GLD.
 
 ![](/assets/scatter-low-slope.png)
 
-Here is the correlation in numbers. 
+Here is the correlation in numbers.
 
 ```
-          SPY       XOM       GLD
+SPY       XOM       GLD
 SPY  1.000000  0.821369  0.076348
 XOM  0.821369  1.000000  0.080527
 GLD  0.076348  0.080527  1.000000
