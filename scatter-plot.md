@@ -46,7 +46,7 @@ Here is SPY vs GLD. Low slope \(angle of the linear regression line\) and distru
 
 ![](/assets/scatter-low-slope.png)
 
-Here is the correlation in numbers.
+Here is the correlation in numbers. If we want to see correlation in numbers,  we can use `daily_returns.corr(method='pearson')` from NumPy.
 
 ```
 SPY       XOM       GLD
