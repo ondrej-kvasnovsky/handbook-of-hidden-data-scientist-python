@@ -1,4 +1,4 @@
-Scatter Plot
+# Scatter Plot
 
 We are going to observe correlations. Notice how price changes for GLD on this chart. When you compare SPY vs XOM, there should be high slope and high correlation in the scatter chart. On the other hand, there should be lower slope and lower correlation for SPY vs GLD.
 
