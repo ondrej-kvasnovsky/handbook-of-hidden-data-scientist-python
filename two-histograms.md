@@ -1,6 +1,6 @@
 # Two Histograms on One Chart
 
-If we want to compare two histograms, we need to plot then on one chart. Here is how to do it. We are using 'util.py' we have create in previous chapter. 
+If we want to compare two histograms, we need to plot then on one chart. Here is how to do it. We are using 'util.py' we have create in previous chapter.
 
 ```
 import pandas as pd
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     test_run()
 ```
 
-Here are the two histograms on one chart. 
+Here are the two histograms on one chart.
 
-
+![](/assets/two-histograms.png)
 
