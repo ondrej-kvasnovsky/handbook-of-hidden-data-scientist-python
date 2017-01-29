@@ -8,3 +8,7 @@ Features of music could be: intensity, tempo, genre, gender, rhythm and so on. L
 
 ![](/assets/features-labels.png)
 
+Here is another example with two features, bumpiness and slope. Labels, in this example, are the colors blue, red and green. 
+
+![](/assets/supervised-cars.png)
+
