@@ -4,6 +4,7 @@
 * [Machine Learning](machine-learning.md)
   * [Supervised Learning](machine-learning/supervised-learning.md)
     * [Features and Labels](machine-learning/supervised-learning/features-and-labels.md)
+    * [Linear Decision Surface](machine-learning/supervised-learning/linear-decision-surface.md)
 * [Python](python.md)
 * [CSV with pandas](chapter1.md)
   * [Reading CSV](read-csv.md)
