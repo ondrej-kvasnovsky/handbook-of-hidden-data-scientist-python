@@ -6,7 +6,7 @@
     * [Features and Labels](machine-learning/supervised-learning/features-and-labels.md)
     * [Linear Decision Surface](machine-learning/supervised-learning/linear-decision-surface.md)
     * [Naive Bayes](machine-learning/supervised-learning/naive-bayes.md)
-    * Support Vector Machine
+    * [Support Vector Machine](machine-learning/supervised-learning/support-vector-machine.md)
 * [Python](python.md)
 * [CSV with pandas](chapter1.md)
   * [Reading CSV](read-csv.md)
