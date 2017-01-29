@@ -1,6 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
+* [Machine Learning](machine-learning.md)
+  * [Supervised Learning](machine-learning/supervised-learning.md)
 * [Python](python.md)
 * [CSV with pandas](chapter1.md)
   * [Reading CSV](read-csv.md)
