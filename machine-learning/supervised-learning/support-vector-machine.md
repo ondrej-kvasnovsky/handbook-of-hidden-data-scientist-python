@@ -27,15 +27,11 @@ The result is:
 [1]
 ```
 
-In case the data are no separable at the first sight, we can calculate a new feature. 
+In case the data are no separable at the first sight, we can calculate a new feature. We need to create a linear line.
 
 ![](/assets/svm-newfeature.png)
 
-
-
-
-
-
+We do not have to calculate new features. We can change 'kernel' parameter to force SVM to create linear separator. 
 
 
 
