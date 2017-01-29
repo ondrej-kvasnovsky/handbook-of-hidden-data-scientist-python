@@ -31,7 +31,7 @@ In case the data are no separable at the first sight, we can calculate a new fea
 
 ![](/assets/svm-newfeature.png)
 
-We do not have to calculate new features. We can change 'kernel' parameter to force SVM to create linear separator. 
+We do not have to calculate new features. We can change 'kernel' parameter to force SVM to create linear separator. There are other parameters we can configure for SVM. There are to more that are important, it is C and gamma. 
 
 
 
