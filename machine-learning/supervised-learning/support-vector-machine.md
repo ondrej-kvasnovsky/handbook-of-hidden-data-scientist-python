@@ -8,7 +8,7 @@ What should SVM do with this data set? It should ignore that outlier.
 
 ![](/assets/svm2.png)
 
-Here is an example from svm documentation. 
+Here is an example from [SVM documentation](http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html).
 
 ```
 import numpy as np
@@ -21,11 +21,21 @@ clf.fit(X, y)
 print(clf.predict([[-0.8, -1]]))
 ```
 
-The result is: 
+The result is:
 
 ```
 [1]
 ```
+
+In case the data are no separable at the first sight, we can calculate a new feature. 
+
+![](/assets/svm-newfeature.png)
+
+
+
+
+
+
 
 
 
