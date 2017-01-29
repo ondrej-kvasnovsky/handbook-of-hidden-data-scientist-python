@@ -1,6 +1,6 @@
 # Naive Bayes
 
-Naive [Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) is [algorithm](http://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification) to find decision surface. Naive Bayes is good for text learning. See an example below. Who wrote the email that contains Love and Life words? It si Sara. If words would be Life and Deal, it would be Chris. Why is it called Naive? Because it is calculated based on probabilities \(word frequency\).
+Naive [Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) is [algorithm](http://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification) to find decision surface. Naive Bayes is good for text learning. See an example below. Who wrote the email that contains Love and Life words? It si Sara. If words would be Life and Deal, it would be Chris. Why is it called Naive? Because it is calculated based on probabilities \(e.g. word frequency\).
 
 ![](/assets/text-learning.png)
 
