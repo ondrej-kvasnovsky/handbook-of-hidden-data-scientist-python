@@ -8,7 +8,7 @@ We have drawn a line that divides two sets of data points \(based on what Gaussi
 
 ![](/assets/GaussianNB.png)
 
-Have a look at this code \(training data and labels\) and then check the chart and the result of prediction.
+Here is another example with easier data to understand. Have a look at this code \(training data and labels\) and then check the chart and the result of prediction.
 
 ```
 import numpy as np
