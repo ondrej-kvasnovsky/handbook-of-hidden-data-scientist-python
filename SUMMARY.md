@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Machine Learning](machine-learning.md)
   * [Supervised Learning](machine-learning/supervised-learning.md)
+    * [Features and Labels](machine-learning/supervised-learning/features-and-labels.md)
 * [Python](python.md)
 * [CSV with pandas](chapter1.md)
   * [Reading CSV](read-csv.md)
