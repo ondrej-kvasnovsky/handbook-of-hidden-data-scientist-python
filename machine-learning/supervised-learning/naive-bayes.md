@@ -1,6 +1,10 @@
 # Naive Bayes
 
-Naive [Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) is [algorithm](http://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification) to find decision surface. We have drawn a line that divides two sets of data points \(based on what Gaussian Naive Bayes would do\). When we add a new point on chart in order to predict into what category it falls, it will be into the surface below the line.
+Naive [Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) is [algorithm](http://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification) to find decision surface. Naive Bayes is good for text learning. See an example below. Who wrote the email that contains love and life words?
+
+![](/assets/text-learning.png)
+
+We have drawn a line that divides two sets of data points \(based on what Gaussian Naive Bayes would do\). When we add a new point on chart in order to predict into what category it falls, it will be into the surface below the line.
 
 ![](/assets/GaussianNB.png)
 
@@ -27,7 +31,7 @@ Out put is following. So, we can see that coordinates \[-0.8, -1\] fall into cat
 
 # Accuracy
 
-We should verify what is the accuracy of our algorithm usage. For the first example, we will create features and labels. Then we create test data. Then we calculate accuracy. For the following example, the output will be 1.0 \(which is 100% accuracy\). It is because we used the same data points for testing we used for learning. 
+We should verify what is the accuracy of our algorithm usage. For the first example, we will create features and labels. Then we create test data. Then we calculate accuracy. For the following example, the output will be 1.0 \(which is 100% accuracy\). It is because we used the same data points for testing we used for learning.
 
 ```
 import numpy as np
@@ -48,7 +52,7 @@ accuracy = accuracy_score(pred, labels_test)
 print accuracy
 ```
 
-We should tease the algorithm and give it features and labels that were not used for learning. Like here. 
+We should tease the algorithm and give it features and labels that were not used for learning. Like here.
 
 ```
 import numpy as np
@@ -69,5 +73,5 @@ accuracy = accuracy_score(pred, labels_test)
 print accuracy
 ```
 
-For this one, the accuracy is 0.5 because we said that the first data point is 1 but actually, it is falling into category 2. 
+For this one, the accuracy is 0.5 because we said that the first data point is 1 but actually, it is falling into category 2.
 
