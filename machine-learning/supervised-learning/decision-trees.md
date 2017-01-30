@@ -72,9 +72,9 @@ Here is visualized decision tree. We can see that decision tree algorithm decide
 
 ## Min sample split
 
-This chapter is about `min_sample_split`parameter. Lets look at example, we set value to 2 in the first one. In the second, we set it to 50 \(so, minimum value for split is 50\). Observe size of decision tree. 
+This chapter is about `min_sample_split`parameter. Lets look at example, we set value to 2 in the first one. In the second, we set it to 50 \(so, minimum value for split is 50\). Observe size of decision tree.
 
-Here is the sample code. 
+Here is the sample code.
 
 ```
 import numpy as np
@@ -100,7 +100,35 @@ graph = pydotplus.graph_from_dot_data(dot_data)
 graph.write_pdf("tree.pdf")
 ```
 
-Here is the decision tree created from that code. 
+Here is the decision tree created from that code.
 
+![](/assets/decision-tree-minsplit2.png)
 
+When we change min sample split value to 50, the tree becomes really small, because we are saying "do not split it unless the number of samples is 50" to the decision tree. And in this case, that condition is valid only for the root element.
+
+```
+import numpy as np
+from sklearn import tree
+
+np.random.seed(0)
+size = 20
+features = np.r_[np.random.randn(size, 2) - [2, 2], np.random.randn(size, 2) + [2, 2], np.random.randn(size, 2) + [4, 4]]
+labels = [0] * size + [1] * size + [2] * size
+print features
+print labels
+
+clf = tree.DecisionTreeClassifier(min_samples_split=50)
+clf = clf.fit(features, labels)
+
+print clf.predict([[2., 2.]])
+
+tree.export_graphviz(clf, out_file='tree.dot')
+
+import pydotplus
+dot_data = tree.export_graphviz(clf, out_file=None)
+graph = pydotplus.graph_from_dot_data(dot_data)
+graph.write_pdf("tree.pdf")
+```
+
+![](/assets/decision-tree-minsplit50.png)
 
