@@ -168,19 +168,17 @@ Here is the accuracy of randomly generated data, which is what we did in the cod
 
 Controls how a decision tree decies where to split the data. Entropy is measure of impurity in a bunch of examples. Entropy is oposite of purity.
 
-See this example, the dataset on the right side \(that contains only red X\) has higher purity. 
+See this example, the dataset on the right side \(that contains only red X\) has higher purity.
 
 ![](/assets/decision-tree-purity.png)
 
-
-
-Example how to calculate entropy. 
+Example how to calculate entropy.
 
 ![](/assets/dt-entropy.png)
 
 Pslo is 2/4 \(2slow / 4total rows\) and the same for Pfast.
 
-Here is the exact formula to calculate the entropy: 
+Here is the exact formula to calculate the entropy:
 
 ```
 import math
@@ -191,11 +189,13 @@ output: 1.0
 
 ## Information gain
 
-Entropy is used to maximize information gain in the decision tree. 
+Entropy is used in calculation to maximize information gain in the decision tree.
 
+![](/assets/dt-information-gain.png)
 
+Here is the continuation of the example. 
 
-
+![](/assets/dt-info-gain-2.png)
 
 
 
