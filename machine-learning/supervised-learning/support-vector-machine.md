@@ -58,7 +58,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import svm
 
-# we create 40 separable points
 np.random.seed(0)
 X = np.r_[np.random.randn(5, 2) - [2, 2], np.random.randn(5, 2) + [2, 2]]
 Y = [0] * 5 + [1] * 5
@@ -99,7 +98,7 @@ Here is the chart with the separation lines and another two "margin" lines.
 
 ![](/assets/svm-separation-lines.png)
 
-Here is the data used in the chart. 
+Here is the data used in the chart.
 
 ```
 Features: 
