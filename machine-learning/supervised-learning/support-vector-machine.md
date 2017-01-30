@@ -6,7 +6,7 @@
 
 ## Outliers
 
-What should SVM do with this data set? It should ignore that outlier. These points are called outliers. 
+What should SVM do with this data set? It should ignore that outlier. These points are called outliers.
 
 ![](/assets/svm2.png)
 
