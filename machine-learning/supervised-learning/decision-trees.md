@@ -22,7 +22,7 @@ Here is one more example which is using more realistic approach.
 
 If you are running into some issues with graph visualization, check [stackoverflow](http://stackoverflow.com/questions/18438997/why-is-pydot-unable-to-find-graphvizs-executables-in-windows-8).
 
-First we create a data set like this. 
+First we create a data set like this.
 
 ```
 Features: 
@@ -36,13 +36,12 @@ Features:
  [ 2.44386323  2.33367433]
  [ 3.49407907  1.79484174]
  [ 2.3130677   1.14590426]]
- 
+
 Labels:
 [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
-
 ```
 
-Then we create decision tree, fit the data and try to predict a point. 
+Then we create decision tree, fit the data and try to predict a point.
 
 ```
 import numpy as np
@@ -67,7 +66,7 @@ graph = pydotplus.graph_from_dot_data(dot_data)
 graph.write_pdf("tree.pdf")
 ```
 
-Here is visualized decision tree. 
+Here is visualized decision tree. We can see that decision tree algorithm decided to split data on value 1.0058. What is less or equal 1.0058 is True and what is greater, is false.
 
 ![](/assets/decision-tree-simple.png)
 
