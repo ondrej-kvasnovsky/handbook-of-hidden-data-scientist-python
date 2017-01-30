@@ -22,3 +22,5 @@ Here is one more example which is using more realistic approach.
 
 
 
+If you are running into some issues with graph visualization, check [stackoverflow](http://stackoverflow.com/questions/18438997/why-is-pydot-unable-to-find-graphvizs-executables-in-windows-8). 
+
