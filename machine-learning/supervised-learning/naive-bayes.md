@@ -65,7 +65,7 @@ labels = np.array([1, 1, 1, 2, 2, 2])
 clf = GaussianNB()
 clf.fit(features, labels)
 
-features_test = [[-1, 1], [1, 1]]
+features_test = [[-1, 1], [1, 1]] # I changed one number here, in the first array, from -1 to 1
 labels_test = [1, 2]
 pred = clf.predict(features_test)
 
