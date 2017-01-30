@@ -1,6 +1,6 @@
 # Support Vector Machine
 
-[SVM](https://en.wikipedia.org/wiki/Support_vector_machine) is trying to find biggest distance between the points, so there is as much separation as possible.
+[SVM](https://en.wikipedia.org/wiki/Support_vector_machine) is trying to find biggest distance between the points, so there is as much separation as possible. That said, SVM works well with less data where the separation is obvious \(there are big margins between the data points\). So, SVM does not work well for data sets with a lot of points and with data sets with a lot of noice. 
 
 ![](/assets/svm1.png)
 
