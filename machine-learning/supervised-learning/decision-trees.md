@@ -189,11 +189,11 @@ output: 1.0
 
 ## Information gain
 
-Entropy is used in calculation to maximize information gain in the decision tree.
+Entropy is used in calculation to maximize information gain in the decision tree. Information gain is used to decide what value to take to make a split.
 
 ![](/assets/dt-information-gain.png)
 
-Here is the continuation of the example.
+Here is the continuation of the example. We take entropy of parent \(1.0\) and subtract weighted average of children. The result of this is 
 
 ![](/assets/dt-info-gain-2.png)
 
