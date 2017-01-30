@@ -45,5 +45,7 @@ Here is what C does. Bigger C value causes more points to be correctly separated
 
 ## Overfitting
 
+If the lines separating data points are too complex, it is called overfitting. The black curve on the chart below is example of overfitting. The green line, show how the good separation could look like. We can change C, gamma or kernel to tune separation and get rid of overfitting \(do not take all the data too seriously\).
 
+![](/assets/svm-overfitting.png)
 
