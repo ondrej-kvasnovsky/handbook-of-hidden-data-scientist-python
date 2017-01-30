@@ -70,3 +70,7 @@ Here is visualized decision tree. We can see that decision tree algorithm decide
 
 ![](/assets/decision-tree-simple.png)
 
+## Min sample split
+
+
+
