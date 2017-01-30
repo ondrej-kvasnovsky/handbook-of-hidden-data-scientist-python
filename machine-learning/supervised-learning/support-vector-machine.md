@@ -33,7 +33,7 @@ In case the data are no separable at the first sight, we can calculate a new fea
 
 We do not have to calculate new features. We can change 'kernel' parameter to force SVM to create linear separator. There are other parameters we can configure for SVM. There are to more that are important, it is C and gamma.
 
-Here is what C does. 
+Here is what C does. Bigger C value causes more points to be correctly separated, but it also costs more. There must be a balance between algorithm accuracy and speed.
 
 ![](/assets/svm-c.png)
 
