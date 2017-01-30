@@ -132,3 +132,37 @@ graph.write_pdf("tree.pdf")
 
 ![](/assets/decision-tree-minsplit50.png)
 
+## Accuracy
+
+We always want \(have to\) to check accuracy of the algorithm we used. Here is a sample how to do it for decision tree. 
+
+```
+import numpy as np
+from sklearn import tree
+
+np.random.seed(0)
+size = 80
+features = np.r_[np.random.randn(size, 2) - [2, 2], np.random.randn(size, 2) + [2, 2]]
+labels = [0] * size + [1] * size
+
+test_size = 40
+test_features = np.r_[np.random.randn(test_size, 2) - [2, 2], np.random.randn(test_size, 2) + [2, 2]]
+test_labels =  [0] * test_size + [1] * test_size
+
+clf = tree.DecisionTreeClassifier(min_samples_split=2)
+clf = clf.fit(features, labels)
+
+from sklearn.metrics import accuracy_score
+pred = clf.predict(test_features)
+accuracy = accuracy_score(pred, test_labels)
+print accuracy 
+```
+
+Here is the accuracy of randomly generated data, which is what we did in the code above. We have generated 80 training points and 40 test points. You can try to change values and see how accuracy changes. 
+
+```
+0.975
+```
+
+
+
