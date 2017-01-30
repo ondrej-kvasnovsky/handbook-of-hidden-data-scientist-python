@@ -4,7 +4,9 @@
 
 ![](/assets/svm1.png)
 
-What should SVM do with this data set? It should ignore that outlier.
+## Outliers
+
+What should SVM do with this data set? It should ignore that outlier. These points are called outliers. 
 
 ![](/assets/svm2.png)
 
@@ -27,13 +29,21 @@ The result is:
 [1]
 ```
 
+## Not separable data and kernel parameter
+
 In case the data are no separable at the first sight, we can calculate a new feature. We need to create a linear line.
 
 ![](/assets/svm-newfeature.png)
 
 We do not have to calculate new features. We can change 'kernel' parameter to force SVM to create linear separator. There are other parameters we can configure for SVM. There are to more that are important, it is C and gamma.
 
+## C parameter
+
 Here is what C does. Bigger C value causes more points to be correctly separated, but it also costs more. There must be a balance between algorithm accuracy and speed.
 
 ![](/assets/svm-c.png)
+
+## Overfitting
+
+
 
