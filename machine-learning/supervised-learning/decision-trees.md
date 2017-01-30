@@ -134,7 +134,7 @@ graph.write_pdf("tree.pdf")
 
 ## Accuracy
 
-We always want \(have to\) to check accuracy of the algorithm we used. Here is a sample how to do it for decision tree. 
+We always want \(have to\) to check accuracy of the algorithm we used. Here is a sample how to do it for decision tree.
 
 ```
 import numpy as np
@@ -158,11 +158,44 @@ accuracy = accuracy_score(pred, test_labels)
 print accuracy 
 ```
 
-Here is the accuracy of randomly generated data, which is what we did in the code above. We have generated 80 training points and 40 test points. You can try to change values and see how accuracy changes. 
+Here is the accuracy of randomly generated data, which is what we did in the code above. We have generated 80 training points and 40 test points. You can try to change values and see how accuracy changes.
 
 ```
 0.975
 ```
+
+## Entropy
+
+Controls how a decision tree decies where to split the data. Entropy is measure of impurity in a bunch of examples. Entropy is oposite of purity.
+
+See this example, the dataset on the right side \(that contains only red X\) has higher purity. 
+
+![](/assets/decision-tree-purity.png)
+
+
+
+Example how to calculate entropy. 
+
+![](/assets/dt-entropy.png)
+
+Pslo is 2/4 \(2slow / 4total rows\) and the same for Pfast.
+
+Here is the exact formula to calculate the entropy: 
+
+```
+import math
+print -0.5 * math.log(0.5, 2) - 0.5 * math.log(0.5, 2)
+
+output: 1.0
+```
+
+## Information gain
+
+Entropy is used to maximize information gain in the decision tree. 
+
+
+
+
 
 
 
