@@ -51,7 +51,7 @@ If the lines separating data points are too complex, it is called overfitting. T
 
 ## Visualize hyperplane
 
-Here is a nice example from documentation. First we generate 5 points for each label. Then we use linear SVC and fit the created points. Then see how separation line is calculated, together with another two lines that make margin easily observable.
+Here is a nice example from documentation. First we generate 5 points for each label. Then we use linear SVC and fit the created points. Then see how separation line is calculated, together with another two lines that make margin easily observable. Hyper plane has always one less dimension than the space it exists \(e.g. for 2D system, 1D line is hyperplane\). 
 
 ```
 import numpy as np
