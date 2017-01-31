@@ -191,9 +191,27 @@ output: 1.0
 
 Entropy is used in calculation to maximize information gain in the decision tree. Information gain is used to decide what value to take to make a split.
 
+Here is how to calculate Pslow and Pfast \(for speed, which is the patent in this example\). For steep, there are two slow and one fast records, so Pslow is 2/3 and Pfast is 1/3. For flat the entropy is 0.
+
+![](/assets/info-gain-x.png)
+
+Now we calculate entropy of children \(grade feature\).
+
 ![](/assets/dt-information-gain.png)
 
-Here is the continuation of the example. We take entropy of parent \(1.0\) and subtract weighted average of children. The result of this is 
+Now we calculate weighted average of children 3/4 are going to fast branch \(it is 0.9184\). 1/4 goes for slow branch \(it is 0\).
 
-![](/assets/dt-info-gain-2.png)
+![](/assets/info-gainx2.png)
+
+Finally we can calculate information gain. The formula is: 1 - 3/4 \* 0.9184. And the information gain of grade feature is 0.3112.
+
+Then we should calculate information gain for bumpiness \(entropy of bumpy is 1.0, entropy of smooth is 1.0\). So, when we calculate information gain of bumpiness, we get 0. We learned nothing based on bumpiness and therefore we do not want to split it based on bumpiness.
+
+What would be information gain based on speed limit? The information gain is 1.0. Which means we get perfect purity based on speed limit and information gain is 1.0 \(the best we can get\) and this is where we want to make the split. 
+
+
+
+
+
+
 
