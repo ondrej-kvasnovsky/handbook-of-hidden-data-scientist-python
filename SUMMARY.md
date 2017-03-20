@@ -8,6 +8,7 @@
     * [Naive Bayes](machine-learning/supervised-learning/naive-bayes.md)
     * [Support Vector Machine](machine-learning/supervised-learning/support-vector-machine.md)
     * [Decision Trees](machine-learning/supervised-learning/decision-trees.md)
+    * [Regressions](machine-learning/supervised-learning/regressions.md)
 * [Python](python.md)
 * [CSV with pandas](chapter1.md)
   * [Reading CSV](read-csv.md)
