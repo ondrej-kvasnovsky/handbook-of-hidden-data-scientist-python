@@ -211,3 +211,7 @@ What would be information gain based on speed limit? The information gain is 1.0
 
 Default criterion in [scikit learn](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) is 'gini' but can be changed to 'entropy'.
 
+## Bias-Variance Dilemma
+
+
+
