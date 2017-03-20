@@ -20,7 +20,7 @@ Here is one more example which is using more realistic approach.
 
 ## Example
 
-If you are running into some issues with graph visualization, check [stackoverflow](http://stackoverflow.com/questions/18438997/why-is-pydot-unable-to-find-graphvizs-executables-in-windows-8).
+> If you are running into some issues with graph visualization, check [stackoverflow](http://stackoverflow.com/questions/18438997/why-is-pydot-unable-to-find-graphvizs-executables-in-windows-8).
 
 First we create a data set like this.
 
@@ -155,7 +155,7 @@ clf = clf.fit(features, labels)
 from sklearn.metrics import accuracy_score
 pred = clf.predict(test_features)
 accuracy = accuracy_score(pred, test_labels)
-print accuracy 
+print accuracy
 ```
 
 Here is the accuracy of randomly generated data, which is what we did in the code above. We have generated 80 training points and 40 test points. You can try to change values and see how accuracy changes.
@@ -207,11 +207,7 @@ Finally we can calculate information gain. The formula is: 1 - 3/4 \* 0.9184. An
 
 Then we should calculate information gain for bumpiness \(entropy of bumpy is 1.0, entropy of smooth is 1.0\). So, when we calculate information gain of bumpiness, we get 0. We learned nothing based on bumpiness and therefore we do not want to split it based on bumpiness.
 
-What would be information gain based on speed limit? The information gain is 1.0. Which means we get perfect purity based on speed limit and information gain is 1.0 \(the best we can get\) and this is where we want to make the split. 
+What would be information gain based on speed limit? The information gain is 1.0. Which means we get perfect purity based on speed limit and information gain is 1.0 \(the best we can get\) and this is where we want to make the split.
 
-
-
-
-
-
+Default criterion in [scikit learn](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) is 'gini' but can be changed to 'entropy'.
 
