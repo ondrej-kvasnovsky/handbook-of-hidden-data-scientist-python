@@ -1,6 +1,8 @@
 # Decision Trees
 
-This is very popular algorithm in supervised machine learning.
+This is very popular algorithm in supervised machine learning. It is easy to overfit decision tree if there are many features and the decision tree gets complicated. 
+
+Otherwise, it is easy to learn and visualize algorithm. 
 
 ## Linearly separable data
 
@@ -213,5 +215,7 @@ Default criterion in [scikit learn](http://scikit-learn.org/stable/modules/gener
 
 ## Bias-Variance Dilemma
 
+Should your algorithm be more bias or more variance? There needs to be balance between bias and variance, so you need to tune your algorithm. 
 
+High bias algorithm basically ignores data and it is easy to do generalization for them. High variance means high variance data and it is difficult to categorize data. We need to have an algorithm that is able to generalize but also take in \(learn from\) a new data. 
 
