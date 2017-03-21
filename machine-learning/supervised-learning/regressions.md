@@ -10,3 +10,15 @@ Here is an example of descreet data. Input is numerical, but out put is binary \
 
 Slope says the angle of the line. Intercept says where the line is positioned. ![](/assets/slope-intercept.png)Here is another example showing slope and intercept. In SciKitt, coef\_\_ is slope. ![](/assets/slope-intercept-2.png)
 
+## Code example
+
+Here is an example how to train linear regression algorithm. 
+
+```
+from sklearn import linear_model
+reg = linear_model.LinearRegression()
+reg.fit(ages_train, net_worths_train)
+```
+
+
+
