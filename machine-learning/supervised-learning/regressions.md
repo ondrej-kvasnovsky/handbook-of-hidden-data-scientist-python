@@ -12,12 +12,14 @@ Slope says the angle of the line. Intercept says where the line is positioned. !
 
 ## Code example
 
-Here is an example how to train linear regression algorithm. 
+Here is an example how to train linear regression algorithm. We print out the slope \(coef\_\).
 
 ```
 from sklearn import linear_model
 reg = linear_model.LinearRegression()
-reg.fit(ages_train, net_worths_train)
+reg.fit ([[0, 0], [1, 1], [2, 2]], [0, 1, 2])
+
+reg.coef_
 ```
 
 
