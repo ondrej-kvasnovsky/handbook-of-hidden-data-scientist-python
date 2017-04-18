@@ -6,6 +6,10 @@ Here is an example of descreet data. Input is numerical, but out put is binary \
 
 ![](/assets/regression-discrete.png)Here is continuous example, both input and output are numerical. For example, taller person weights more, this is called continous learning. ![](/assets/regression-continous.png)Here are few other examples to test your understanding of discreet and continuous learning. ![](/assets/regression-examples.png)Here is one more example. ![](/assets/regression-example2.png)
 
+Linear regression is meant for numerical results \(this chapter is only about linear regression\). Logistic regression is for discrete results \(used for classification\).
+
+Both linear regression and logistic regression have the same drawbacks. Both have the tendency to “overfit,” which means the model adapts too exactly to the data at the expense of the ability to generalise to previously unseen data. Because of that, both models are often “regularised,” which means they have certain penalties to prevent overfit. Another drawback of linear models is that, since they’re so simple, they tend to have trouble predicting more complex behaviours.
+
 ## Slope And Intercept
 
 Slope says the angle of the line. Intercept says where the line is positioned. ![](/assets/slope-intercept.png)Here is another example showing slope and intercept. In SciKitt, coef\_\_ is slope. ![](/assets/slope-intercept-2.png)
