@@ -43,5 +43,5 @@ SSE is not perfect because it dependents on number of point in the training data
 
 ## R squared
 
-R squared is better metric for evaluation of Regression if number of points in the dataset is changing.![](/assets/r-squared.png) 
+R squared is better metric for evaluation of Regression if number of points in the dataset is changing.![](/assets/r-squared.png)Here are few additional info for [Regression metrics](http://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics).
 
