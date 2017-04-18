@@ -35,5 +35,13 @@ The best regression is the one that minimizes SUM\( \|error\| \). m is slope and
 * Ordinary least square \(OLS\)
 * Gradient descent![](/assets/regression-min.png)
 
-Why is it good to think of regression as minimizing of square errors? It is because it increases accuracy by finding line that is just far enough from all the points in training dataset. 
+Why is it good to think of regression as minimizing of square errors? It is because it increases accuracy by finding line that is just far enough from all the points in training dataset.
+
+## SSE is not perfect
+
+SSE is not perfect because it dependents on number of point in the training dataset.![](/assets/sse-isntperfect.png)
+
+## R squared
+
+R squared is better metric for evaluation of Regression if number of points in the dataset is changing.![](/assets/r-squared.png) 
 
