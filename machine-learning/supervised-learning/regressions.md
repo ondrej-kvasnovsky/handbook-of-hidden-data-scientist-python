@@ -47,5 +47,5 @@ SSE is not perfect because it dependents on number of point in the training data
 
 ## R squared
 
-R squared is better metric for evaluation of Regression if number of points in the dataset is changing. If the result of r-squared is close to 1, the regression line does good predicting.![](/assets/r-squared.png)Here are few additional info for [Regression metrics](http://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics).
+R squared is better metric for evaluation of Regression if number of points in the dataset is changing. If the result of r-squared is close to 1, the regression line does good predicting job.![](/assets/r-squared.png)Here are few additional info for [Regression metrics](http://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics).
 
