@@ -18,7 +18,7 @@ plt.show()
 
 ### Here is the output. ![](/assets/Screen Shot 2017-05-19 at 10.33.16 AM.png)Scatter plot
 
-Lets create a simple scatter plot to introduce basics of scatter plot. 
+Lets create a simple scatter plot to introduce basics of scatter plot.
 
 ```
 import matplotlib.pyplot as plt
@@ -36,5 +36,33 @@ plt.ylabel('y')
 plt.show()
 ```
 
+![](/assets/Screen Shot 2017-05-19 at 12.14.35 PM.png)When we want to visualize different groups of points, we might want to color the points. 
 
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+N = 10
+g1 = (0.6 + 0.6 * np.random.rand(N), np.random.rand(N))
+g2 = (0.4 + 0.3 * np.random.rand(N), 0.5 * np.random.rand(N))
+g3 = (0.3 * np.random.rand(N), 0.3 * np.random.rand(N))
+
+data = (g1, g2, g3)
+colors = ("red", "green", "blue")
+groups = ("coffee", "tea", "water")
+
+# Create plot
+fig = plt.figure()
+ax = fig.add_subplot(1, 1, 1, axisbg="1.0")
+
+for data, color, group in zip(data, colors, groups):
+    x, y = data
+    ax.scatter(x, y, alpha=0.8, c=color, edgecolors='none', s=30, label=group)
+
+plt.title('scatter plot')
+plt.legend(loc=2)
+plt.show()
+```
+
+![](/assets/Screen Shot 2017-05-19 at 12.17.19 PM.png)
 
