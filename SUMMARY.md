@@ -31,4 +31,6 @@
   * [Histogram](histogram.md)
   * [Two Histograms](two-histograms.md)
   * [Scatter Plot](scatter-plot.md)
+* [Visualization](visualization.md)
+  * [pyplot](visualization/pyplot.md)
 
