@@ -16,7 +16,33 @@ plt.plot(x, y)
 plt.show()
 ```
 
-Here is the output. ![](/assets/Screen Shot 2017-05-19 at 10.33.16 AM.png)
+Here is the output. ![](/assets/Screen Shot 2017-05-19 at 10.33.16 AM.png)Scatter plot
+
+
+
+```
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4]
+y = [3, 4, 8, 6]
+
+colors = (0, 0, 0)
+plt.scatter(x, y, c=colors, alpha=0.5)
+
+plt.title('Scatter plot')
+plt.xlabel('x')
+plt.ylabel('y')
+
+plt.show()
+```
+
+---
+
+
+
+
+
+
 
 
 
