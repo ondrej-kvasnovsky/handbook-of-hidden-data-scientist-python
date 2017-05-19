@@ -2,6 +2,8 @@
 
 [SVM](https://en.wikipedia.org/wiki/Support_vector_machine) is trying to find biggest distance between the points, so there is as much separation as possible. That said, SVM works well with less data where the separation is obvious \(there are big margins between the data points\). So, SVM does not work well for data sets with a lot of points and with data sets with a lot of noice.
 
+Nice video explaining SVM is [here](https://www.youtube.com/watch?v=_PwhiWxHK8o).
+
 ![](/assets/svm1.png)
 
 ## Outliers
@@ -51,7 +53,7 @@ If the lines separating data points are too complex, it is called overfitting. T
 
 ## Visualize hyperplane
 
-Here is a nice example from documentation. First we generate 5 points for each label. Then we use linear SVC and fit the created points. Then see how separation line is calculated, together with another two lines that make margin easily observable. Hyper plane has always one less dimension than the space it exists \(e.g. for 2D system, 1D line is hyperplane\). 
+Here is a nice example from documentation. First we generate 5 points for each label. Then we use linear SVC and fit the created points. Then see how separation line is calculated, together with another two lines that make margin easily observable. Hyper plane has always one less dimension than the space it exists \(e.g. for 2D system, 1D line is hyperplane\).
 
 ```
 import numpy as np

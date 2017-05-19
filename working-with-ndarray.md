@@ -240,7 +240,7 @@ b = np.array([[2],[3],[4]])
 np.hstack((a,b))
 ```
 
-Add another column into an array. 
+Add another column into an array.
 
 ```
 my_data = np.random.random((210,8))
