@@ -196,7 +196,7 @@ Index of max.: 5
 
 ## Glue arrays together
 
-There are many ways to append or connect two arrays. Depends what we really need. 
+There are many ways to append or connect two arrays. Depends what we really need.
 
 Append one array to another array.
 
@@ -215,7 +215,7 @@ array([[1, 2, 3],
        [6, 5, 4]])
 ```
 
-Or we can do the same thing using vstack function. 
+Or we can do the same thing using vstack function.
 
 ```
 In [1]: a = np.array([1, 2, 3])
@@ -228,7 +228,7 @@ array([[1, 2, 3],
        [4, 5, 6]])
 ```
 
-Or using hstack to do it horizontally. 
+Or using hstack to do it horizontally.
 
 ```
 a = np.array((1,2,3))
@@ -238,6 +238,31 @@ np.hstack((a,b))
 a = np.array([[1],[2],[3]])
 b = np.array([[2],[3],[4]])
 np.hstack((a,b))
+```
+
+Add another column into an array. 
+
+```
+my_data = np.random.random((210,8))
+new_col = my_data.sum(1)[...,None]
+new_col.shape
+#(210,1)
+all_data = np.append(my_data, new_col, 1)
+all_data.shape
+#(210,9)
+
+# or
+>>> a = np.array([[1,2,3],[2,3,4]])
+>>> a
+array([[1, 2, 3],
+       [2, 3, 4]])
+>>> z = np.zeros((2,1))
+>>> z
+array([[ 0.],
+       [ 0.]])
+>>> np.concatenate((a, z), axis=1)
+array([[ 1.,  2.,  3.,  0.],
+       [ 2.,  3.,  4.,  0.]])
 ```
 
 ## Slicing array
