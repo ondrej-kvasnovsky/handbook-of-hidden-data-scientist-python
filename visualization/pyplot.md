@@ -16,9 +16,9 @@ plt.plot(x, y)
 plt.show()
 ```
 
-Here is the output. ![](/assets/Screen Shot 2017-05-19 at 10.33.16 AM.png)Scatter plot
+### Here is the output. ![](/assets/Screen Shot 2017-05-19 at 10.33.16 AM.png)Scatter plot
 
-
+Lets create a simple scatter plot to introduce basics of scatter plot. 
 
 ```
 import matplotlib.pyplot as plt
@@ -35,16 +35,6 @@ plt.ylabel('y')
 
 plt.show()
 ```
-
----
-
-
-
-
-
-
-
-
 
 
 
