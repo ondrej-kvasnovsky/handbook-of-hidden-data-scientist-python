@@ -194,6 +194,52 @@ Maximum value: 14
 Index of max.: 5
 ```
 
+## Glue arrays together
+
+There are many ways to append or connect two arrays. Depends what we really need. 
+
+Append one array to another array.
+
+```
+In [1]: import numpy as np
+
+In [2]: a = np.array([[1, 2, 3], [4, 5, 6]])
+
+In [3]: b = np.array([[9, 8, 7], [6, 5, 4]])
+
+In [4]: np.concatenate((a, b))
+Out[4]: 
+array([[1, 2, 3],
+       [4, 5, 6],
+       [9, 8, 7],
+       [6, 5, 4]])
+```
+
+Or we can do the same thing using vstack function. 
+
+```
+In [1]: a = np.array([1, 2, 3])
+
+In [2]: b = np.array([4, 5, 6])
+
+In [3]: np.vstack((a, b))
+Out[3]: 
+array([[1, 2, 3],
+       [4, 5, 6]])
+```
+
+Or using hstack to do it horizontally. 
+
+```
+a = np.array((1,2,3))
+b = np.array((2,3,4))
+np.hstack((a,b))
+
+a = np.array([[1],[2],[3]])
+b = np.array([[2],[3],[4]])
+np.hstack((a,b))
+```
+
 ## Slicing array
 
 If you want to slice data, get some specific values of array, you can access it via indices.
