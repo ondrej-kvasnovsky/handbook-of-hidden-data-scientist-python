@@ -2,6 +2,22 @@
 
 [SVM](https://en.wikipedia.org/wiki/Support_vector_machine) is trying to find biggest distance between the points, so there is as much separation as possible. That said, SVM works well with less data where the separation is obvious \(there are big margins between the data points\). So, SVM does not work well for data sets with a lot of points and with data sets with a lot of noice.
 
+Taken from [An Idiot’s guide to Support vector machines \(SVMs\)](http://web.mit.edu/6.034/wwwbob/svm.pdf): ![](/assets/Screen Shot 2017-05-21 at 9.50.59 PM.png)
+
+> * SVMs maximize the margin \(Winston terminology: the ‘street’\) around the separating [hyperplane](https://en.wikipedia.org/wiki/Hyperplane).
+>
+> * The decision function is fully specified by a \(usually very small\) subset of training samples, the support vectors.
+>
+> * This becomes a Quadratic programming problem that is easy to solve by standard methods
+>
+> General input/output for SVMs just like for neural nets, but for one important addition...
+>
+> **Input**: set of \(input, output\) training pair samples; call the input sample features _x1, x2...xn_, and the output result _y_.Typically, there can be lots of input features _x\(i\)_.
+>
+> **Output**: set of weights w\(or _w\(i\)_\), one for each feature, whose [linear combination](https://en.wikipedia.org/wiki/Linear_combination) predicts the value of _y_.\(So far, just like neural nets...\)
+>
+> **Important difference**: we use the optimization of maximizing the margin \(‘street width’\) to reduce the number of weights that are nonzero to just a few that correspond to the important features that ‘matter’ in deciding the separating line \([hyperplane](https://en.wikipedia.org/wiki/Hyperplane)\)...these nonzero weights correspond to the support vectors \(because they ‘support’ the separating hyperplane\)
+
 Nice video explaining SVM is [here](https://www.youtube.com/watch?v=_PwhiWxHK8o).
 
 ![](/assets/svm1.png)
