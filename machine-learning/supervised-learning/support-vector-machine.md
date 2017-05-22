@@ -8,7 +8,7 @@ Taken from [An Idiot’s guide to Support vector machines \(SVMs\)](http://web.m
 >
 > * The decision function is fully specified by a \(usually very small\) subset of training samples, the support vectors.
 >
-> * This becomes a Quadratic programming problem that is easy to solve by standard methods
+> * This becomes a [Quadratic programming](https://en.wikipedia.org/wiki/Quadratic_programming) problem that is easy to solve by standard methods
 >
 > General input/output for SVMs just like for neural nets, but for one important addition...
 >
