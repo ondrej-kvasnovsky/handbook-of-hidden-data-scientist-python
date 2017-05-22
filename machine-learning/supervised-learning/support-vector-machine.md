@@ -12,7 +12,7 @@ Taken from [An Idiot’s guide to Support vector machines \(SVMs\)](http://web.m
 >
 > * The resulting learning algorithm is an optimization algorithm rather than a greedy search
 
- ![](/assets/Screen Shot 2017-05-21 at 9.50.59 PM.png)
+![](/assets/Screen Shot 2017-05-21 at 9.50.59 PM.png)
 
 > * SVMs maximize the margin \(Winston terminology: the ‘street’\) around the separating [hyperplane](https://en.wikipedia.org/wiki/Hyperplane).
 >
@@ -39,6 +39,8 @@ Taken from [An Idiot’s guide to Support vector machines \(SVMs\)](http://web.m
 > * Moving the other vectors has no effect
 
 Nice video explaining SVM is [here](https://www.youtube.com/watch?v=_PwhiWxHK8o).
+
+Here is another picture showing basic concept in SVM, finding separating line by finding biggest margin.
 
 ![](/assets/svm1.png)
 
