@@ -17,7 +17,7 @@ Taken from [An Idiot’s guide to Support vector machines \(SVMs\)](http://web.m
 > **Output**: set of weights w\(or _w\(i\)_\), one for each feature, whose [linear combination](https://en.wikipedia.org/wiki/Linear_combination) predicts the value of _y_.\(So far, just like neural nets...\)
 >
 > **Important difference**: we use the optimization of maximizing the margin \(‘street width’\) to reduce the number of weights that are nonzero to just a few that correspond to the important features that ‘matter’ in deciding the separating line \([hyperplane](https://en.wikipedia.org/wiki/Hyperplane)\)...these nonzero weights correspond to the support vectors \(because they ‘support’ the separating hyperplan
-
+>
 > * Support vectors are the elements of the training set that would change the position of the dividing hyperplane if removed.
 >
 > * Support vectors are the critical elements of the training set
@@ -27,8 +27,6 @@ Taken from [An Idiot’s guide to Support vector machines \(SVMs\)](http://web.m
 > * Moving a support vector moves the decision boundary
 >
 > * Moving the other vectors has no effect
-
-
 
 Nice video explaining SVM is [here](https://www.youtube.com/watch?v=_PwhiWxHK8o).
 
