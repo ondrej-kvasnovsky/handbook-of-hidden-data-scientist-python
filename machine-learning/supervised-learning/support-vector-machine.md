@@ -2,7 +2,17 @@
 
 [SVM](https://en.wikipedia.org/wiki/Support_vector_machine) is trying to find biggest distance between the points, so there is as much separation as possible. That said, SVM works well with less data where the separation is obvious \(there are big margins between the data points\). So, SVM does not work well for data sets with a lot of points and with data sets with a lot of noice.
 
-Taken from [An Idiot’s guide to Support vector machines \(SVMs\)](http://web.mit.edu/6.034/wwwbob/svm.pdf): ![](/assets/Screen Shot 2017-05-21 at 9.50.59 PM.png)
+Taken from [An Idiot’s guide to Support vector machines \(SVMs\)](http://web.mit.edu/6.034/wwwbob/svm.pdf):
+
+> Two independent developments within last decade:
+>
+> * New efficient separability of non-linear regions that use “[kernel functions](https://www.quora.com/What-are-Kernels-in-Machine-Learning-and-SVM)” : generalization of ‘similarity’ to new kinds of similarity measures based on dot products
+>
+> * Use of [quadratic optimization problem](http://www.solver.com/linear-quadratic-programming) to avoid ‘[local minimum](https://www.whitman.edu/mathematics/calculus_online/section05.01.html)’ issues with neural nets
+>
+> * The resulting learning algorithm is an optimization algorithm rather than a greedy search
+
+ ![](/assets/Screen Shot 2017-05-21 at 9.50.59 PM.png)
 
 > * SVMs maximize the margin \(Winston terminology: the ‘street’\) around the separating [hyperplane](https://en.wikipedia.org/wiki/Hyperplane).
 >
